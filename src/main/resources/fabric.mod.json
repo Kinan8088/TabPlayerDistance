@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "tabplayerdistance",
+  "version": "1.0.0",
+  "name": "TabPlayerDistance",
+  "description": "Highlights players in the tab list based on whether they are within render distance.",
+  "authors": [
+    "Kinan8088"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/tabplayerrender",
+    "sources": "https://github.com/Kinan8088/TabPlayerDistance",
+    "issues": "https://github.com/Kinan8088/TabPlayerDistance/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/tabplayerdistance/icon.png",
+  "environment": "client",
+  "suggests": {
+    "modmenu": "*"
+  },
+  "entrypoints": {
+    "client": [ "com.kinan8088.tabplayerdistance.TabPlayerDistance" ],
+    "modmenu": [ "com.kinan8088.tabplayerdistance.ModMenuIntegration" ]
+  },
+  "depends": {
+    "minecraft": ">=1.21",
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*"
+  }
+}
