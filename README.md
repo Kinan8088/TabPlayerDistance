@@ -12,4 +12,4 @@ The mod includes an in-game configuration screen where you can:
 - Enable or disable the mod
 - Change the colors used for different distance ranges
 
-Avaiable to download in [Modrinth](https://modrinth.com/mod/tabplayerrender)
+Avaiable to download in [Modrinth](https://modrinth.com/mod/tabplayerdistance)
